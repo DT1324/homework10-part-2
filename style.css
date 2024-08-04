@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: -moz-linear-gradient(left, #5DFFD0 0%, #5C32FF 50%, #FF9695 100%);
+background: -webkit-linear-gradient(left, #5DFFD0 0%, #5C32FF 50%, #FF9695 100%);
+background: linear-gradient(to right, #5DFFD0 0%, #5C32FF 50%, #FF9695 100%);
+}
+
+
+.header {
+    background: -moz-linear-gradient(left, #5DFFD0 0%, #5C32FF 50%, #FF9695 100%);
+background: -webkit-linear-gradient(left, #5DFFD0 0%, #5C32FF 50%, #FF9695 100%);
+background: linear-gradient(to right, #5DFFD0 0%, #5C32FF 50%, #FF9695 100%);
+    
+}
+
+.container {
+    width: 1200px;
+    outline: 2px solid red;
+    margin: 0 auto;
+    
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.navigation button {
+    background-color: #fff360;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.navigation button:hover,
+.navigation button:focus {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 
+    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+.gallery-list {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto
+}
+
+.gallery-item {
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.button:hover{
+    box-shadow: 0px 0px 18px 11px #000000; 
+}
